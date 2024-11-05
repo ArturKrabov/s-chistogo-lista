@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "EB Garamond";
+    src: 
+        local("EB-Garamond-medium"),
+        local("EBGaramondmedium"),
+        url("./ebgaramondmedium.ttf") format("teletype"),
+        url("./ebgaramondmedium.woff") format("woff"),
+        url("./ebgaramondmedium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EB Garamond";
+    src: 
+        local("EB-Garamond-regular"),
+        local("EBGaramondregular"),
+        url("./ebgaramondregular.ttf") format("teletype"),
+        url("./ebgaramondregular.woff") format("woff"),
+        url("./ebgaramondregular.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src:
+        local("Inter-bold"),
+        local("Interbold"),
+        url("./interbold.ttf") format("teletype"),
+        url("./interbold.woff") format("woff"),
+        url("./interbold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src:
+        local("Inter-regular"),
+        local('Interregular'),
+        url("./interregular.ttf") format("teletype"),
+        url("./interregular.woff") format("woff"),
+        url("./interregular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
