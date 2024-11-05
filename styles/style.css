@@ -42,30 +42,30 @@ blockquote {
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
   height: 132px;
 
   padding: 24px 20px;
 }
 
-.logo {
+.header__logo-image {
   width: 78px;
   height: 15px;
 }
 
-.menu {
+.header__menu {
   display: flex;
-  flex-direction: column;
-
-  gap: 12px;
+  justify-content: space-between;
 }
 
-.undecorated {
+.header__menu-list {
+  list-style: none;
+}
+
+.header__menu-item_active a {
   text-decoration: none;
 }
 
-.menu__link {
+.header__menu-link {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;

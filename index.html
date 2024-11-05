@@ -5,15 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>С чистого листа</title>
     <link href="./fonts/fonts.css" rel="stylesheet" />
-    <link href="styles/style.css" rel="stylesheet" type="text/css" />   
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header class="header content-section_theme_dark">
-      <img class="logo" src="images/logo.svg" alt="Верстка"/>
-      <nav class="menu">
-        <a class="menu__link undecorated" href="/">Главная</a>
-        <a class="menu__link" href="/">О нас</a>
-        <a class="menu__link" href="/">Контакты</a>
+      <nav class="header__menu">
+        <a class="header__logo" href="/"
+          ><img class="header__logo-image" src="images/logo.svg" alt="Верстка"
+        /></a>
+        <ul class="header__menu-list">
+          <li class="header__menu-item_active">
+            <a class="header__menu-link" href="/">Главная</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="/">О нас</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="/">Контакты</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main class="content-section_theme_dark">
