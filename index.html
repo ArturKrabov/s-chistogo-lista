@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>С чистого листа</title>
     <link href="./fonts/fonts.css" rel="stylesheet" />
-    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header class="header content-section_theme_dark">
+      <a class="header__logo" href="/"
+        ><img class="header__logo-image" src="./images/logo.svg" alt="Верстка"
+      /></a>
       <nav class="header__menu">
-        <a class="header__logo" href="/"
-          ><img class="header__logo-image" src="images/logo.svg" alt="Верстка"
-        /></a>
         <ul class="header__menu-list">
           <li class="header__menu-item_active">
             <a class="header__menu-link" href="/">Главная</a>
@@ -41,7 +41,7 @@
           </h2>
           <time datetime="2022-06-05" class="intro__date">05.06.2022 г.</time>
         </header>
-        <section class="intro__main-text">
+        <div class="intro__main-text">
           <p>
             Начинать что-то новое — тяжело и страшно. Даже если это просто
             небольшой фрагмент кода. Или текст. Например, прежде чем написать
@@ -56,7 +56,7 @@
             что-то новое) — нормальная реакция мозга. Разберёмся, почему это
             происходит.
           </p>
-        </section>
+        </div>
       </section>
       <section class="reasons content-section_theme_bright">
         <header class="reasons__heading">
@@ -65,7 +65,7 @@
             <span class="accent-span">— такой cтрашный?</span>
           </h2>
         </header>
-        <section class="reasons__introduction">
+        <div class="reasons__introduction">
           <p>
             Сам по себе чистый лист, конечно, не страшный. Боимся мы чаще всего
             объёма работы, которую предстоит сделать. Усилия, той точки, которую
@@ -73,7 +73,7 @@
             состояние потока. Причин, почему первые усилия даются так сложно,
             может быть очень много. Вот основные:
           </p>
-        </section>
+        </div>
         <ul class="reasons__list">
           <li class="reasons__list-item">
             <span class="reasons__list-accent"
@@ -118,86 +118,86 @@
             <span class="accent-span">что-то делать</span>
           </h2>
         </header>
-        <section class="how-to__introduction">
+        <div class="how-to__introduction">
           <p>
             Чаще всего страх чистого листа появляется не из-за чего-то одного, а
             из-за совокупности нескольких факторов. Вот что может помочь:
           </p>
-        </section>
+        </div>
+        <ul class="cards-list">
+          <li class="card card_theme_dark">
+            <article class="card__content">
+              <header class="card__header">
+                <img src="./images/polyarinov.png" alt="Алексей Поляринов" />
+                <span class="card__author-name">Алексей Поляринов</span>
+              </header>
+              <div class="card__text">
+                <h3 class="card__title">Начать любыми словами</h3>
+                <div class="card__introduction">
+                  <p>
+                    Любыми — без шуток. Если не верите нам, посмотрите,
+                    например, чем открывается эссе Алексея Поляринова «Чарли
+                    Кауфман: расширение пространства». Можно и менее радикально.
+                    Главное, чтобы пустую страницу начали заполнять символы.
+                    Получится своеобразная ловушка для мозга: он видит, что вы
+                    уже начали что-то делать, и ему становится легче войти в
+                    состояние потока.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="card card_theme_bright">
+            <article class="card__content">
+              <div class="card__text">
+                <h3 class="card__title">
+                  Поставить перед собой рамку для фотографии
+                </h3>
+                <div class="card__introduction">
+                  <p>
+                    Самую обычную: 10 на 15 сантиметров. Уже от одного ощущения,
+                    что предстоит работа над большой и сложной задачей, может
+                    пропасть всякое желание за неё браться. В такие моменты
+                    хорошо помогает загнать задачу в рамки — в прямом смысле.
+                    Сосредоточьтесь на том, чтобы заполнить только пространство
+                    10х15 сантиметров. Что дальше — пока неважно.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="card card_theme_dark">
+            <article class="card__content">
+              <header class="card__header">
+                <img src="./images/bunin.png" alt="Иван Бунин" />
+                <span class="card__author-name">Иван Бунин</span>
+              </header>
+              <div class="card__text">
+                <h3 class="card__title">Сделать из задачи рутину</h3>
+                <div class="card__introduction">
+                  <p>
+                    «Писать стихи нужно каждый день, подобно тому как скрипач
+                    или пианист непременно должен каждый день без пропусков по
+                    нескольку часов играть на своём инструменте. В противном
+                    случае ваш талант неизбежно оскудеет, высохнет, подобно
+                    колодцу, откуда долгое время не берут воду. А о чём писать?
+                    О чём угодно. Если у вас в данное время нет никакой темы,
+                    идеи, то пишите просто обо всём, что увидите», — такой совет
+                    своему приятелю дал Иван Бунин. Нет повода ему не следовать.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ul>
       </section>
-      <ul class="cards-list">
-        <li class="card card_theme_dark">
-          <article class="card__content">
-            <header class="card__header">
-              <img src="images/polyarinov.png" alt="Алексей Поляринов" />
-              <span class="card__author-name">Алексей Поляринов</span>
-            </header>
-            <section class="card__text">
-              <h2 class="card__title">Начать любыми словами</h2>
-              <section class="card__introduction">
-                <p>
-                  Любыми — без шуток. Если не верите нам, посмотрите, например,
-                  чем открывается эссе Алексея Поляринова «Чарли Кауфман:
-                  расширение пространства». Можно и менее радикально. Главное,
-                  чтобы пустую страницу начали заполнять символы. Получится
-                  своеобразная ловушка для мозга: он видит, что вы уже начали
-                  что-то делать, и ему становится легче войти в состояние
-                  потока.
-                </p>
-              </section>
-            </section>
-          </article>
-        </li>
-        <li class="card card_theme_bright">
-          <article class="card__content">
-            <section class="card__text">
-              <h2 class="card__title">
-                Поставить перед собой рамку для фотографии
-              </h2>
-              <section class="card__introduction">
-                <p>
-                  Самую обычную: 10 на 15 сантиметров. Уже от одного ощущения,
-                  что предстоит работа над большой и сложной задачей, может
-                  пропасть всякое желание за неё браться. В такие моменты хорошо
-                  помогает загнать задачу в рамки — в прямом смысле.
-                  Сосредоточьтесь на том, чтобы заполнить только пространство
-                  10х15 сантиметров. Что дальше — пока неважно.
-                </p>
-              </section>
-            </section>
-          </article>
-        </li>
-        <li class="card card_theme_dark">
-          <article class="card__content">
-            <header class="card__header">
-              <img src="images/bunin.png" alt="Иван Бунин" />
-              <span class="card__author-name">Иван Бунин</span>
-            </header>
-            <section class="card__text">
-              <h2 class="card__title">Сделать из задачи рутину</h2>
-              <section class="card__introduction">
-                <p>
-                  «Писать стихи нужно каждый день, подобно тому как скрипач или
-                  пианист непременно должен каждый день без пропусков по
-                  нескольку часов играть на своём инструменте. В противном
-                  случае ваш талант неизбежно оскудеет, высохнет, подобно
-                  колодцу, откуда долгое время не берут воду. А о чём писать? О
-                  чём угодно. Если у вас в данное время нет никакой темы, идеи,
-                  то пишите просто обо всём, что увидите», — такой совет своему
-                  приятелю дал Иван Бунин. Нет повода ему не следовать.
-                </p>
-              </section>
-            </section>
-          </article>
-        </li>
-      </ul>
     </main>
     <footer class="footer">
-      <div class="footer__copy">© VЁRSTKA</div>
-      <div class="footer__links">
-        <a href="/">ВК</a>
-        <a href="/">Ютуб</a>
-      </div>
+      <p class="footer__copy">© VЁRSTKA</p>
+      <ul class="footer__links">
+        <li><a href="/">ВК</a></li>
+        <li><a href="/">Ютуб</a></li>
+      </ul>
     </footer>
   </body>
 </html>

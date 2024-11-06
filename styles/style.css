@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   width: 360px;
   background-color: #1e1e1e;
 }
@@ -42,22 +42,21 @@ blockquote {
 }
 
 .header {
-  height: 132px;
+  display: flex;
+  justify-content: space-between;
 
   padding: 24px 20px;
 }
 
 .header__logo-image {
   width: 78px;
-  height: 15px;
-}
-
-.header__menu {
-  display: flex;
-  justify-content: space-between;
 }
 
 .header__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
   list-style: none;
 }
 
@@ -66,7 +65,7 @@ blockquote {
 }
 
 .header__menu-link {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -75,7 +74,7 @@ blockquote {
 }
 
 .cover {
-  padding-top: 7px;
+  min-height: 258px;
   padding-left: 20px;
 
   background-image: url("../images/cover.svg");
@@ -85,7 +84,7 @@ blockquote {
 }
 
 .cover__title {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", sans-serif;
   font-size: 72px;
   line-height: 100%;
   color: white;
@@ -107,11 +106,10 @@ blockquote {
 
 .intro {
   padding: 0 20px 38px 20px;
-  margin-top: 30px;
 }
 
 .intro__title {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -126,7 +124,7 @@ blockquote {
 .intro__date {
   white-space: nowrap;
 
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -137,7 +135,7 @@ blockquote {
 .intro__main-text p {
   margin-top: 24px;
 
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -150,7 +148,7 @@ blockquote {
 }
 
 .reasons__title {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
@@ -160,7 +158,7 @@ blockquote {
 
 .reasons__introduction {
   padding: 32px 0;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -177,7 +175,7 @@ blockquote {
 .reasons__list-item {
   margin-left: 10px;
 
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -186,7 +184,7 @@ blockquote {
 }
 
 .reasons__list-accent {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -198,7 +196,7 @@ blockquote {
 }
 
 .how-to__title {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
@@ -209,7 +207,7 @@ blockquote {
 .how-to__introduction {
   padding: 32px 0;
 
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -235,7 +233,6 @@ blockquote {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin: 0 20px;
 }
 
 .card {
@@ -255,7 +252,7 @@ blockquote {
   display: block;
   padding: 8px 0 8px 0;
 
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -265,7 +262,7 @@ blockquote {
 .card__title {
   padding-bottom: 8px;
 
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -273,7 +270,7 @@ blockquote {
 }
 
 .card__introduction p {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -292,7 +289,7 @@ blockquote {
 }
 
 .footer__copy {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -304,10 +301,12 @@ blockquote {
 .footer__links {
   display: flex;
   gap: 16px;
+
+  list-style: none;
 }
 
 .footer__links a {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
